@@ -1,15 +1,5 @@
 # chzycloud-platform
 
-[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)]
-(https://www.apache.org/licenses/LICENSE-2.0.html)<a href='https://gitee.com/catshen/chzycloud-platform'><img src='https://gitee.com/catshen/chzycloud-platform/widgets/widget_4.svg' alt='Fork me on Gitee'></img></a><a href='https://gitee.com/catshen/chzycloud-platform/stargazers'><img src='https://gitee.com/catshen/chzycloud-platform/badge/star.svg?theme=dark' alt='star'></img></a>
-
-## 如果您觉得有帮助，请点右上角 "Star" 支持一下谢谢
-
-关注公众号 获取更多资料和体验小程序
-<img src="https://images.gitee.com/uploads/images/2019/0519/174631_65c2a4e8_134431.png" width="140px" height="140px" />
-[TOC]
-
-
 - 商户入驻流程  https://gitee.com/zscat/mallplus/wikis/pages/preview?sort_id=1634420&doc_id=326093
 - 单机版项目地址 https://gitee.com/zscat/mallplus
 - 前端vue 项目路径下有一个zip包
@@ -32,8 +22,6 @@
 ## 1. 项目介绍
 
 [文档blog]( http://yjlive.cn:8084/#/)
-
-* **技术交流群** [195405248]
 * **详细在线文档** [点击查看](https://gitee.com/zscat/chzycloud-platform/wikis)
 * **演示地址**
   * url： [http://www.yjlive.cn:8090/#/login](http://www.yjlive.cn:8090/#/login)
@@ -57,9 +45,6 @@
 * 引入组件化的思想实现高内聚低耦合，项目代码简洁注释丰富上手容易
 * 注重代码规范，严格控制包依赖，每个工程基本都是最小依赖
 * 非常适合学习和企业中使用
-
-
-&nbsp;
 
 ## 2. 项目总体架构图
 
@@ -111,7 +96,6 @@
   * 统一跨域处理
   * 统一异常处理
 
-&nbsp;
 
 ## 4. 模块说明
 
@@ -155,7 +139,6 @@ chzycloud -- 父项目，公共依赖
 │  │  ├─sharding-jdbc-demo -- sharding-jdbc的demo
 ```
 
-&nbsp;
 
 ## 5. 截图（点击可大图预览）
 
@@ -247,9 +230,3 @@ uni-app 是一个使用 Vue.js 开发跨平台应用的前端框架，开发者�
 1. 微服务版项目地址 https://gitee.com/catshen/zscat_sw
 1. 前端vue 项目路径下有一个zip包
 1. 部署地址 https://gitee.com/catshen/zscat_sw/wikis/pages?sort_id=1551918&doc_id=364094
-
-
-许可证
-Apache License 2.0
-
-Copyright (c) 2018-2019 macrozheng
