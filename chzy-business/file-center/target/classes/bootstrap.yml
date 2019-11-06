@@ -1,0 +1,19 @@
+server:
+  port: 5000
+
+chzy:
+  nacos:
+    server-addr: 47.100.192.63:8848
+
+spring:
+  application:
+    name: file-center
+  cloud:
+    nacos:
+      config:
+        server-addr: ${chzy.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+      discovery:
+        server-addr: ${chzy.nacos.server-addr}

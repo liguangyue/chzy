@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${chzy.datasource.ip}:3306/chzycloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: ${chzy.datasource.username}
+    password: ${chzy.datasource.password}
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.chzyplus.goods.entity
+  global-config:
+    db-config:
+      id-type: auto
+
+chzy:
+  swagger:
+    enabled: true
+    title: 商品中心
+    description: 商品中心接口文档
+    version: 1.0
+    base-package: com.central.user.controller
+  cache-manager:
+    configs:
+      - key: menu
+        second: 600
+      - key: user
+        second: 1800

@@ -1,0 +1,12 @@
+server:
+  port: 12003
+
+
+
+spring:
+  application:
+    name: txlcn-demo-spring-service-c
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${chzy.nacos.server-addr}
