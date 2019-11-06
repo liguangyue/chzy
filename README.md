@@ -278,6 +278,8 @@ Grafana账号：mall/mall
 txlcn事务管理器密码：admin
 任务管理账号密码：admin/123456
 https://gitee.com/zscat/mallplus/wikis/pages/preview?sort_id=1609360&doc_id=326093
+
+开发工具
 1.redis 
 2.Mysql
 3.Mq
